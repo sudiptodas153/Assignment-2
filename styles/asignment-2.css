@@ -14,8 +14,13 @@
   margin: 0 auto;
 }
 
-header{
-  margin: 0 30px;
+header {
+  padding: 0 30px;
+
+  background-color: rgba(128, 128, 128, 0.121);
+  background-blend-mode: overlay;
+  border: none;
+
 }
 
 
@@ -35,7 +40,7 @@ header{
   color: white;
   justify-content: space-between;
   align-items: center;
- 
+
 
 
 }
@@ -70,6 +75,7 @@ header{
 .sub-section {
   display: flex;
   gap: 100px;
+
 }
 
 .caption {
@@ -111,8 +117,8 @@ header{
 
   width: 100px;
 }
- 
-.btn-primary{
+
+.btn-primary {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -127,7 +133,8 @@ header{
   bottom: 100px;
   right: 60px;
 }
-.btn-primary2{
+
+.btn-primary2 {
   color: white;
   padding: 10px;
   width: 120px;
@@ -136,14 +143,14 @@ header{
   border: 1px solid gray;
   position: relative;
   bottom: 330px;
- left: 200px;
+  left: 200px;
 }
 
-.option{
+.option {
   text-align: start;
 }
 
-.ball{
+.ball {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,6 +160,145 @@ header{
   background-color: rgb(202, 45, 21);
 }
 
+
+/* Main */
+
+main {
+  padding: 0 30px;
+  margin: 0 auto;
+
+}
+
+.section-1 {
+  margin-top: 50px;
+}
+
+.title2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 13px;
+  color: rgba(128, 128, 128, 0.72);
+}
+
+.habits {
+  color: white;
+  text-align: center;
+}
+
+.all-img {
+  display: flex;
+}
+
+.section-2 {
+  margin-top: 50px;
+}
+
+.title3 {
+  color: white;
+
+}
+
+.btn-me {
+  width: 120px;
+  padding: 8px 10px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(231, 91, 4);
+  border: 1px solid rgb(231, 91, 4);
+}
+
+.sec-2 {
+  display: flex;
+  gap: 70px;
+  background-color: rgba(128, 128, 128, 0.276);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.images {
+  width: 350px;
+  border-radius: 15px;
+}
+
+table {
+  width: 200px;
+  border-collapse: collapse;
+}
+
+td {
+  font-size: 8px;
+  border: 1px solid rgba(135, 134, 134, 0.271);
+  padding: 5px;
+  color: rgba(128, 128, 128, 0.732);
+}
+
+th {
+  font-size: 11px;
+  border: 1px solid rgba(135, 134, 134, 0.271);
+  padding: 5px;
+  text-align: start;
+}
+
+
+.section-3lite {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  background-color: rgba(128, 128, 128, 0.276);
+  margin: 0 -30px;
+  padding: 10px 30px;
+  margin-top: 50px;
+}
+
+
+.input {
+  color: rgba(128, 128, 128, 0.648);
+  width: 190px;
+  height: 25px;
+  border-radius: 6px;
+  margin-top: 6px;
+  background-color: rgba(128, 128, 128, 0.209);
+  border: 1px solid rgba(128, 128, 128, 0.209);
+}
+
+.input2 {
+  color: rgba(128, 128, 128, 0.648);
+  width: 390px;
+  height: 25px;
+  border-radius: 6px;
+  margin-top: 6px;
+  background-color: rgba(128, 128, 128, 0.209);
+  border: 1px solid rgba(128, 128, 128, 0.209);
+}
+
+.grid-me{
+  display: flex;
+  gap: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   .bar {
     display: block;
@@ -160,7 +306,7 @@ header{
 
   .fitness {
     font-size: 3rem;
-  
+
   }
 
   .ul-item {
@@ -179,24 +325,71 @@ header{
 
   .button {
     height: 3rem;
-  
+
   }
+
   .button2 {
     display: flex;
     gap: 1rem;
-  
+
   }
 
-  .btn-primary{
+  .btn-primary {
     position: relative;
     bottom: 250px;
     right: 60px;
   }
 
-  .btn-primary2{
+  .btn-primary2 {
     position: relative;
     bottom: 410px;
-   left: 140px;
+    left: 140px;
+  }
+
+  .all-img {
+    display: block;
+    padding: 0 50px;
+    margin-top: 20px;
+  }
+
+  .sec-2 {
+    display: block;
+    gap: 70px;
+    background-color: rgba(128, 128, 128, 0.276);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .images {
+    margin-top: 20px;
+    width: 320px;
+  }
+
+  .btn-me {
+    left: 30px;
+    width: 75%;
+  }
+
+  .section-3lite {
+    display: block;
+  }
+
+  .input {
+
+    width: 180px;
+
+  }
+
+  .input2 {
+    margin-top: -20px;
+    width: 370px;
+
+  }
+
+
+  .grid-me {
+    display: flex;
+    gap: 3px;
   }
 
 }
