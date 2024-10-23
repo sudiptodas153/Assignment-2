@@ -74,6 +74,7 @@ header {
 
 .sub-section {
   display: flex;
+  justify-content: space-between;
   gap: 100px;
 
 }
@@ -143,7 +144,7 @@ header {
   border: 1px solid gray;
   position: relative;
   bottom: 330px;
-  left: 200px;
+  left: 150px;
 }
 
 .option {
